@@ -1,0 +1,63 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8ecfc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f8849c;
+    margin: 20px 0 10px; /* Adjusted for better spacing */
+}
+
+.gif_container {
+    /* Removed margin-left for better centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f8849c;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #FAF9F6;
+}
+
+/* Adjusted button positioning */
+#noButton, #yesButton {
+    position: relative; /* Changed to relative for demonstration */
+    transition: 0.5s;
+}

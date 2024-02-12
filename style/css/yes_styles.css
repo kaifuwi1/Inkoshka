@@ -1,0 +1,41 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8ecfc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* This will ensure everything in the container is centered */
+}
+
+.header_text, .text {
+    font-family: 'Nunito', sans-serif;
+    color: #f8849c;
+    margin: 20px 0; /* Provides consistent spacing */
+}
+
+.header_text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: bold;
+    /* Additional styling as needed */
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Ensures the GIF is centered within its container */
+}

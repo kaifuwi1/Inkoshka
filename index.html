@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style/css/styles.css">
+            
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">Will you</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media1.giphy.com/media/u3oJrE4PApVrtSq2eM/giphy.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "yes.html";
+                    }
+                    
+                    function moveButton() {
+                        var button = document.getElementById('noButton');
+                        var maxX = window.innerWidth - button.offsetWidth;
+                        var maxY = window.innerHeight - button.offsetHeight;
+                
+                        // Ensure button stays within visible boundaries
+                        var x = Math.random() * maxX;
+                        var y = Math.random() * maxY;
+                
+                        button.style.position = 'fixed'; // Use 'fixed' to ensure it's relative to the viewport
+                        button.style.left = `${x}px`;
+                        button.style.top = `${y}px`;
+                    }
+                </script>
+                
+            </div>
+        </div>
+       
+    </body> 
+</html>
