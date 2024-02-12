@@ -1,8 +1,1 @@
-# tinawina
-Hi Guys!
-
-I made this little webpage after a friend showed me something similar my girlfriend had liked on instagram. 
-
-Feel free to use this code for your site or however y'all see fit! 
-
-URL: olie.wu.github.io/tinawina/
+Before run any of the files you Inkarim, Inkar, Inka, Inkosh, Inkoshka have to be sure that you'll answer yes (you have no choice ☺️)
